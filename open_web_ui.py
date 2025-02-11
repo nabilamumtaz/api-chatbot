@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # ✅ JWT Token dari Local Storage
-JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM1OWM3MjMwLTBkZDEtNDVmZC05NTcxLTc4OGVhZWRkZmEzMSJ9.m6tfgIoXnHft6yqySA_HkRFTJc5VdcS-coC_QFCbHpM"
+JWT_TOKEN = ""
 
 # ✅ URL API Open Web UI
 OPEN_WEB_UI_API = "http://localhost:3000/api/chat/completions"
